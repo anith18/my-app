@@ -43,10 +43,10 @@ const handleOnChange=(event)=>{
     <div className="mb-3">
     <textarea className="form-control" value={text}id="mybox" onChange={handleOnChange} style={{backgroundColor:props.mode==='dark'?'grey':'white',color:props.mode==='dark'?'white':'#042743'}} rows="8"></textarea>
         </div>
-        <button className="btn btn-primary mx-2"onClick={handleUpClick}>upper case</button>
-        <button className="btn btn-primary mx-2"onClick={handleloClick}>lower case</button>
-        <button className="btn btn-primary mx-2"onClick={handleclearClick}>clear text</button>
-        <button className="btn btn-primary mx-2"onClick={handleCopyClick}>copy text</button>
+        <button className="btn btn-primary mx-2 my-1"onClick={handleUpClick}>upper case</button>
+        <button className="btn btn-primary mx-2 my-1"onClick={handleloClick}>lower case</button>
+        <button className="btn btn-primary mx-2 my-1"onClick={handleclearClick}>clear text</button>
+        <button className="btn btn-primary mx-2 my-1"onClick={handleCopyClick}>copy text</button>
     </div>
     <div className='container my-3' style={{color:props.mode==='dark'?'white':'#042743'}}>
         <h1>your text summary</h1>
